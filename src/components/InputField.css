@@ -1,0 +1,68 @@
+.field {
+  margin: 0 0 30px;
+}
+.field {
+  user-select: none;
+  width: 345px;
+  height: 68px;
+  overflow: visible;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: -0.05px;
+}
+
+.legend {
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.04px;
+  color: #a0a1a4;
+  margin-left: 22px;
+  transform: translateY(-2px);
+  display: inline-block;
+  height: 15px;
+}
+.input {
+  /* display: none; */
+}
+.label {
+  width: 100%;
+  height: 60px;
+  line-height: 22px;
+  display: flex;
+  padding: 19px 20px;
+  position: relative;
+  top: -8px;
+  cursor: pointer;
+}
+
+.selector_list {
+  display: flex;
+  width: 345px;
+  padding: 12px 0;
+  position: absolute;
+  /* -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column; */
+  flex-direction: column;
+  /* display: none; */
+  overflow: visible;
+  z-index: 1;
+  background: #fff;
+  border-radius: 8px;
+  line-height: 2.29;
+
+  box-shadow: 0 15px 66px 0 rgb(0 0 0 / 4%);
+  border: 1px solid #eee;
+}
+.selector_list input {
+  display: none;
+}
