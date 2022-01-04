@@ -1,0 +1,56 @@
+.field_mail {
+  width: 345px;
+  height: 68px;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: -0.05px;
+}
+
+.field_mail:focus-within {
+  border-color: #0068e4;
+}
+
+/* .field_mail:hover {
+  border-color: #0068e4;
+} */
+
+.legend_mail {
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.04px;
+  color: #a0a1a4;
+  margin-left: 22px;
+  transform: translateY(-2px);
+  display: inline-block;
+  height: 15px;
+}
+.field_mail:focus-within ~ .legend_mail {
+  color: #0068e4;
+}
+
+.inputMail {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.05px;
+  width: 315px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0);
+  line-height: 22px;
+  padding: 19px 20px;
+  position: relative;
+  top: -8px;
+  border: none;
+  outline: none;
+}

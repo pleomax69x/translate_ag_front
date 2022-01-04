@@ -1,25 +1,30 @@
 import "./App.css";
-import InputField from "./components/InputField";
+import Container from "./components/Container/Container";
+// import InputSelect2 from "./components/InputSelect2/InputSelect2";
+// import TextArea from "./components/TextArea/TextArea";
+// import InputField from "./components/InputField/InputField";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
-    <div className="container">
-      <div className="main">
-        <h1>HELLO</h1>
-        <form>
-          <div className="makeOrder__item">
-            <InputField />
-            {/* <fieldset>
-              <legend>Main div</legend>
+    <Container>
+      {/* <div className="container"> */}
 
-              <input id="name" />
-              <label for="name">Enter name </label>
-            </fieldset> */}
+      <div className="main">
+        <h1>Замовити переклад або редагування</h1>
+        <Form />
+        {/* <form>
+          <div className="makeOrder__item">
+            <InputSelect2 />
+            <TextArea />
+            <InputField />
           </div>
           <div className="makeOrder__item"></div>
-        </form>
+        </form> */}
       </div>
-    </div>
+
+      {/* </div> */}
+    </Container>
   );
 }
 
